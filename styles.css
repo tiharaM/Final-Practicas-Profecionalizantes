@@ -1,0 +1,77 @@
+/* Estilos generales */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #c6c5c5;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    font-family:'Times New Roman', Times, serif;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilos de secciones */
+section {
+    background-color: #f9f9f9;
+    padding: 40px;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+section h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+section p {
+
+    line-height: 1.5;
+    color: #666;
+}
+
+section a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+section a:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos de pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.titulo{
+    color: blue;
+}
