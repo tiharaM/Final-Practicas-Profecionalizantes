@@ -1,77 +1,43 @@
-/* Estilos generales */
-body {
-    font-family: 'Times New Roman', Times, serif, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #c6c5c5;
-    text-align: center;
-    padding: 20px 0;
-}
-
-nav ul {
-    font-family:'Times New Roman', Times, serif;
-    list-style: none;
-    padding: 0;
+.button-container {
     display: flex;
-    justify-content: center;
-    background-color: #333;
+    justify-content: space-between; /* Distribuye los botones equitativamente en el espacio disponible */
+    align-items: center; /* Alinea verticalmente los botones al centro del contenedor */
 }
 
-nav li {
-    margin: 0 20px;
-}
 
-nav a {
-    text-decoration: none;
-    color: white;
-}
 
-/* Estilos de secciones */
-section {
-    background-color: #f9f9f9;
-    padding: 40px;
-    margin-bottom: 30px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-section h2 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-section p {
-
-    line-height: 1.5;
-    color: #666;
-}
-
-section a {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-section a:hover {
-    background-color: #0056b3;
-}
-
-/* Estilos de pie de página */
-footer {
-    text-align: center;
+h3 {
+    background-position: center;
+    background-position-y: center;
+    background-size: 10%; 
+    background-color: #5593aa;
+    color: #ffffff;
     padding: 20px;
-    background-color: #f2f2f2;
+    text-align: center;
+    font-size: 200%;
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    position: relative;
+    top: -150px;
+    
+    
 }
 
-.titulo{
-    color: blue;
+.cuadro-de-texto {
+    width: 300px;
+    background-color: #5593aa;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    color: #f1f1f1;
+    margin: 25px; /* Espacio entre los cuadros */
+    display: inline-block; /* Coloca los cuadros en línea */
+    height: 35vh; /* Altura del 25% de la ventana */
+    position: relative;
+    top: -150px;
+}
+
+    .cuadro-de-texto a:hover {
+        background-color: #eff2f6;
 }
