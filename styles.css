@@ -7,18 +7,15 @@ body {
 }
 
 header {
-    background-image: url('imagenes/imagen2.png.png');
-    background-size: center; /* Usar "cover" en lugar de "center" para ajustar la imagen de fondo */
+    background-image: url('imagenes/imagen2.png');
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-position-y: center;
-    background-size: 7%; 
     background-color: #5593aa;
     color: #ffffff;
     padding: 5px;
     text-align: center;
 }
-
 
 h1 {
     font-size: 24px;
@@ -70,11 +67,11 @@ h2 {
 
 /* Estilos adicionales para la promoción */
 #promotion {
-    background-image: url('imagenes/imagen1.png.png');
-    background-size: cover; /* Utiliza "cover" para ajustar la imagen de fondo */
+    background-image: url('imagenes/imagen1.png');
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: 100%; /* Establece el tamaño de la imagen de fondo al 100% */
+    background-size: 100%;
     height: 100px;
     color: #0f4571;
     text-align: center;
@@ -87,29 +84,26 @@ h2 {
     height: 100vh;
 }
 
-
-
-
 /* Estilos para el carrusel */
 .carousel-container {
     position: relative;
     overflow: hidden;
     width: 100%;
-    max-width: 1300px; /* Ajusta el ancho máximo según tus necesidades */
+    max-width: 1300px;
     margin: 0 auto;
     margin-top: -420px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Altura del carrusel toma toda la altura de la ventana */
+    height: 100vh;
 }
 
 .carousel-list {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; /* Para colocar las imágenes en una fila horizontal */
+    display: flex;
 }
 
 .carousel-list li {
@@ -121,29 +115,27 @@ h2 {
     height: auto;
 }
 
-#prevBtn, #nextBtn {
+#prevBtn,
+#nextBtn {
     background-color: #333;
     color: #fff;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
     font-size: 16px;
-    margin: 5px; /* Margen entre los botones */
+    margin: 5px;
 }
 
-/* Contenedor flex para los botones */
 .button-container {
     display: flex;
-    justify-content: space-between; /* Distribuye los botones equitativamente en el espacio disponible */
-    align-items: center; /* Alinea verticalmente los botones al centro del contenedor */
+    justify-content: space-between;
+    align-items: center;
 }
-
-
 
 h3 {
     background-position: center;
     background-position-y: center;
-    background-size: 10%; 
+    background-size: 10%;
     background-color: #5593aa;
     color: #ffffff;
     padding: 20px;
@@ -154,8 +146,6 @@ h3 {
     height: 10vh;
     position: relative;
     top: -150px;
-    
-    
 }
 
 .cuadro-de-texto {
@@ -165,14 +155,13 @@ h3 {
     padding: 10px;
     font-size: 16px;
     color: #f1f1f1;
-    margin: 25px; /* Espacio entre los cuadros */
-    display: inline-block; /* Coloca los cuadros en línea */
-    height: 35vh; /* Altura del 25% de la ventana */
+    margin: 25px;
+    display: inline-block;
+    height: 35vh;
     position: relative;
     top: -150px;
 }
 
-    .cuadro-de-texto a:hover {
-        background-color: #eff2f6;
+.cuadro-de-texto a:hover {
+    background-color: #eff2f6;
 }
-
