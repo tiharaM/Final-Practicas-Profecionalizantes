@@ -18,4 +18,3 @@ nextBtn.addEventListener('click', () => {
 function updateCarousel() {
     const offset = -currentIndex * 100 + '%';
     carouselList.style.transform = `translateX(${offset})`;
-}
