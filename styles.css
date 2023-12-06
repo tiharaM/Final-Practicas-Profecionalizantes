@@ -8,7 +8,7 @@ body {
 
 header {
     background-image: url('imagenes/imagen2.png.png');
-    background-size: center;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: center;
