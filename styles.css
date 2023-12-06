@@ -7,10 +7,12 @@ body {
 }
 
 header {
-    background-image: url('imagenes/imagen2.png');
-    background-size: cover;
+    background-image: url('imagenes/imagen2.png.png');
+    background-size: center;
     background-repeat: no-repeat;
     background-position: center;
+    background-position-y: center;
+    background-size: 7%;
     background-color: #5593aa;
     color: #ffffff;
     padding: 5px;
@@ -65,9 +67,8 @@ h2 {
     margin-bottom: 10px;
 }
 
-/* Estilos adicionales para la promoción */
 #promotion {
-    background-image: url('imagenes/imagen1.png');
+    background-image: url('imagenes/imagen1.png.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
@@ -84,7 +85,6 @@ h2 {
     height: 100vh;
 }
 
-/* Estilos para el carrusel */
 .carousel-container {
     position: relative;
     overflow: hidden;
@@ -115,8 +115,7 @@ h2 {
     height: auto;
 }
 
-#prevBtn,
-#nextBtn {
+#prevBtn, #nextBtn {
     background-color: #333;
     color: #fff;
     padding: 10px 20px;
